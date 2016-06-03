@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Trash"
+        android:id="@+id/textView18"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We can recycle many things from our day to day life. It can be an ALUMINUM CAN or ALUMINUM FOIL AND BAKEWARE or STEEL CANS AND TIN CANS etc.
+
+        There are different types of waste:
+        1. Liquid Waste
+        2. Solid Waste
+        3. Hazardous Waste
+        4. Organic Waste
+        5. Recyclable Waste and many more...
+
+        Recycling is processing used materials (waste) into new, useful products.
+        This is done to reduce the use of raw materials that would have been used. Waste that can be potentially recycled is termed Recyclable waste.
+         Aluminum products (like soda, milk and tomato cans), Plastics (grocery shopping bags, plastic bottles), Glass products (like wine and beer bottles, broken glass), Paper products (used envelopes, newspapers and magazines, cardboard boxes) can be recycled and fall into this category.
+        "
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp" />
+</LinearLayout>
