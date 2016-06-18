@@ -74,4 +74,29 @@
             android:textSize="24sp"
             android:text="Feedback" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Donate"
+            android:id="@+id/b11"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/b12"
+            android:text="Find Donators"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
 </LinearLayout>

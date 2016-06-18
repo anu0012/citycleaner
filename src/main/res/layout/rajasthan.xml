@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. M/s. Green Escape Eco Management Pvt. Ltd."
+        android:id="@+id/textView21"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Unit – I, H-1-472, MIA, Alwar, Rajasthan-301030"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button9"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2. M/s. Green Leaf recycling Industries"
+        android:id="@+id/textView23"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="G- 166-167 West part RIICO Industrial Area, Bagru (Ext.) The Sanganer Distt Jaipur"
+        android:id="@+id/textView29"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button10"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3. M/s. ETCO E-Waste Recycler Pvt.Ltd."
+        android:id="@+id/textView30"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="D- 117 1st Floor Ambabari, Jaipur "
+        android:id="@+id/textView31"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button11"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. E-Process House"
+        android:id="@+id/textView21"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Plot No. 136/F-1. 2nd Phase, GIDC, Dist Valsad VAPI 396195"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button9"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2. E-coli Waste Management P. Ltd"
+        android:id="@+id/textView23"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Plot No.-90 TO 92 Sabar Industrial Park P.ltd Vill-Asal Ta-Bhiloda Dist-Sabarkantha Himmatnagar "
+        android:id="@+id/textView29"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button10"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3. ECS Environment Ltd."
+        android:id="@+id/textView30"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ECS House, 11-12 Garden View, Opp. Auda Garden, Sindhu Bhawan road, Off SG Highway- Pakwan Circle, Bodakdev, Ahmedabad 380054"
+        android:id="@+id/textView31"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button11"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+</LinearLayout>

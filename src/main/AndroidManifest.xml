@@ -46,6 +46,30 @@
             <category android:name="android.intent.category.DEFAULT" />
         </activity>
 
+        <activity android:name="com.example.student.citycleaner.Rajasthan" android:screenOrientation="portrait" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+        <activity android:name="com.example.student.citycleaner.Andhara" android:screenOrientation="portrait" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+        <activity android:name="com.example.student.citycleaner.Chhattisgarh" android:screenOrientation="portrait" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+        <activity android:name="com.example.student.citycleaner.Gujrat" android:screenOrientation="portrait" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+        <activity android:name="com.example.student.citycleaner.find_donators" android:screenOrientation="portrait" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+        <activity android:name="com.example.student.citycleaner.donate" android:screenOrientation="portrait" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
     </application>
 
 </manifest>

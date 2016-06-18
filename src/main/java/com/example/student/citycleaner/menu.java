@@ -12,7 +12,7 @@ import java.util.Locale;
 
 
 public class menu extends AppCompatActivity {
-    Button b1,b2,b3,b4,b5,b6;
+    Button b1,b2,b3,b4,b5,b6,b11,b12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,8 @@ public class menu extends AppCompatActivity {
         b4=(Button)findViewById(R.id.b4);
         b5=(Button)findViewById(R.id.b5);
         b6=(Button)findViewById(R.id.b6);
+        b11=(Button)findViewById(R.id.b11);
+        b12=(Button)findViewById(R.id.b12);
 
 
         b1.setOnClickListener(new View.OnClickListener(){
@@ -77,7 +79,23 @@ public class menu extends AppCompatActivity {
             }
         });
 
+        b11.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
 
+                Intent intent = new Intent(getApplicationContext(), donate.class);
+                startActivity(intent);
+            }
+        });
+
+        b12.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+                Intent intent = new Intent(getApplicationContext(), find_donators.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

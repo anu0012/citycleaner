@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. M/s. Earth Sense recycle Private Limited"
+        android:id="@+id/textView21"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Plot No. 37,APIIC Industrial Park, Mankhal, Maheshwaram Mandal, Rangareddy District - AP"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button9"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2. M/s Ramky E- Waste Recycling"
+        android:id="@+id/textView23"
+        android:layout_weight="0.06"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Facility (Ramky Enviro Engineers Ltd) , Plot No. 25 A, Hardware Park, K. Raviryal (V), Maheshwaram (M), R.R. Dist - 500081"
+        android:id="@+id/textView29"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:id="@+id/button10"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+</LinearLayout>
